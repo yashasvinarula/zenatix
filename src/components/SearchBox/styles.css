@@ -1,0 +1,51 @@
+.search-container{
+    width: 90vw;
+    max-height: 400px;
+    overflow: auto;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px 0;
+    border-radius: 30px;
+}
+
+.search-container::-webkit-scrollbar {
+    width: 14px;
+}
+.search-container::-webkit-scrollbar-track {
+    background: transparent;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+  
+  /* Handle */
+  .search-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .search-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.search-container:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+ul{
+    padding: 0;
+}
+
+.result{
+    list-style-type: none;
+    padding: 10px 15px;
+    width: calc(100% - 2px) !important;
+    margin-left: 1px;
+}
+
+.result:hover{
+    background: #eee;
+    cursor: pointer;
+}

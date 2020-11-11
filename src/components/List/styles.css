@@ -1,0 +1,29 @@
+.list-component{
+    width: 90vw;
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-item{
+    text-align: center;
+    margin: 0;
+    min-width: 33.3%;
+    flex: 1;
+    padding: 10px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+.list-item:nth-child(odd) {
+    background: #AAAAAA;
+    color: #eee;
+  }
+  
+.list-item:nth-child(even) {
+    background: #DDDDDD;
+    color: #222;
+  }
